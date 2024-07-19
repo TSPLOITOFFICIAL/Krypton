@@ -13,23 +13,23 @@ local DisableCharacterScripts = Configuration.DisableCharacterScripts or false
 local TeleportOffsetRadius = Configuration.TeleportOffsetRadius or 22
 local Hats = Configuration.Hats or {
 	["Right Arm"] = {
-		{Texture = "14255544465", Mesh = "14255522247", Name = "RARM", Offset = CFrame.Angles(0, 0, math.rad(90))}
+		{Texture = "12344207333", Mesh = "12344206657", Name = "RARM", Offset = CFrame.Angles(0, 0, math.rad(90))}
 	},
 
 	["Left Arm"] = {
-		{Texture = "14255544465", Mesh = "14255522247", Name = "LARM", Offset = CFrame.Angles(0, 0, math.rad(90))}
+		{Texture = "13779858015", Mesh = "13778226115", Name = "LARM", Offset = CFrame.Angles(0, 0, math.rad(90))}
 	},
 
 	["Right Leg"] = {
-		{Texture = "17374768001", Mesh = "17374767929", Name = "Accessory (RARM)", Offset = CFrame.Angles(0, 0, math.rad(90))}
+		{Texture = "11263219250", Mesh = "11263221350", Name = "MeshPartAccessory", Offset = CFrame.Angles(0, 0, math.rad(90))}
 	},
 
 	["Left Leg"] = {
-		{Texture = "17374768001", Mesh = "17374767929", Name = "Accessory (LARM)", Offset = CFrame.Angles(0, 0, math.rad(90))}
+		{Texture = "11159284657", Mesh = "11159370334", Name = "Unloaded Head", Offset = CFrame.Angles(0, 0, math.rad(90))}
 	},
 
 	["Torso"] = {
-		{Texture = "13415110780", Mesh = "13421774668", Name = "MeshPartAccessory", Offset = CFrame.identity}
+		{Texture = "13779858015", Mesh = "13778226115", Name = "Front", Offset = CFrame.identity}
 	},
 }
 
