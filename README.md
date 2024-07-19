@@ -34,7 +34,7 @@ Configuration.AntiVoiding = true
 Configuration.SetSimulationRadius = true
 Configuration.DisableCharacterScripts = true
 Configuration.Hats = nil
-local Module = game:HttpGet("https://raw.githubusercontent.com/KadeTheExploiter/Krypton/main/Module.luau")
+local Module = game:HttpGet("https://raw.githubusercontent.com/TSPLOITOFFICIAL/Krypton/main/Module.luau")
 loadstring(Module)()
 ```
 
